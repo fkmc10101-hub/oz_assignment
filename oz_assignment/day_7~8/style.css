@@ -1,0 +1,23 @@
+.positive {
+    color: #d63031;
+    font-weight: bold;
+}
+
+/* 상승 (한국식 빨간색 또는 글로벌 녹색 선택) */
+.negative {
+    color: #0984e3;
+    font-weight: bold;
+}
+
+/* 하락 (파란색) */
+.star-btn {
+    cursor: pointer;
+    color: #ccc;
+    font-size: 1.2rem;
+}
+
+.star-btn.active {
+    color: #f1c40f;
+}
+
+/* 노란색 별 */
